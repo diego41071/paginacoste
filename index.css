@@ -51,8 +51,12 @@ body {
 }
 
 img {
-    width: 10%;
+    width: 18%;
     top: 165px;
     position: relative;
     left: -28%;
+}
+
+h2{
+    font-size: 220%;
 }
