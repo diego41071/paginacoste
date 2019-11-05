@@ -8,6 +8,7 @@ body {
     background-color: #f1f1f1;
     padding: 30px;
     text-align: center;
+    margin-top: -9%;
 }
 
 #navbar {
@@ -47,4 +48,11 @@ body {
 
 .sticky+.content {
     padding-top: 60px;
+}
+
+img {
+    width: 10%;
+    top: 165px;
+    position: relative;
+    left: -28%;
 }
