@@ -89,7 +89,7 @@ img {
   left: -28%;
 }
 
-h2 {
+.h2 {
   font-size: 93%;
   margin-top: -2%;
   margin-bottom: -1%;
@@ -97,4 +97,8 @@ h2 {
 
 h3 {
   font-size: 93%;
+}
+
+.p {
+  text-align: left;
 }
