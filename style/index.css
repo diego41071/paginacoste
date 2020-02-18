@@ -3,6 +3,7 @@ body {
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .header {
@@ -120,4 +121,9 @@ h3 {
 
 .p {
   text-align: left;
+}
+
+.footer {
+  background-color: black;
+  color: white;
 }
