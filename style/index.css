@@ -63,7 +63,11 @@ input[type='radio']:checked:after {
   background-color: rgb(4, 151, 209);
   color: white;
 }
-
+.items {
+  text-align: left;
+  margin: 0 auto;
+  width: 21%;
+}
 #navbar a.active {
   background-color: #f1f1f1;
   color: black;
@@ -90,6 +94,7 @@ input[type='radio']:checked:after {
   color: black;
   padding: 10%;
   z-index: 1;
+  padding-top: 2%;
 }
 
 .sticky {
@@ -162,7 +167,7 @@ footer {
   width: 100%;
 }
 .footer-list-top {
-  width: 33.333%;
+  width: 30%;
 }
 .footer-list-top > li {
   text-align: center;
