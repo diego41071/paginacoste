@@ -207,7 +207,7 @@ footer {
 .footer-social-connect {
   display: flex;
   align-items: center;
-  font: 3.5em 'Oswald', sans-serif;
+  font: 1.5em 'Oswald', sans-serif;
   color: #fff;
 }
 .footer-social-small {
@@ -230,7 +230,7 @@ footer {
   margin-right: auto;
 }
 .footer-bottom-wrapper {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
 }
 .footer-address {
