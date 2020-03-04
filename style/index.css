@@ -150,7 +150,7 @@ a {
 }
 
 .flex-rw {
-  display: flex;
+  /* display: flex; */
   flex-flow: row wrap;
 }
 main {
@@ -166,6 +166,8 @@ footer {
   background: rgb(55, 55, 55);
   margin-top: auto;
   width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .footer-list-top {
   width: 30%;
@@ -205,7 +207,7 @@ footer {
   padding: 0 20px;
 }
 .footer-social-connect {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   font: 1.5em 'Oswald', sans-serif;
   color: #fff;
