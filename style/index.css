@@ -109,7 +109,7 @@ input[type="radio"]:checked:after {
   padding-top: 60px;
 }
 
-img {
+.leftimg {
   width: 18%;
   top: 165px;
   position: relative;
