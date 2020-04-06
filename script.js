@@ -17,24 +17,38 @@ document.getElementById("getfulldate").innerHTML = new Date().getFullYear();
 
 AOS.init();
 
-var slideIndex = 1;
-showDivs(slideIndex);
+var myIndex = 0;
+carousel();
 
-function plusDivs(n) {
-  showDivs((slideIndex += n));
-}
-
-function showDivs(n) {
+function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = x.length;
-  }
+
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  x[slideIndex - 1].style.display = "block";
+  myIndex++;
+  if (myIndex > x.length) {
+    myIndex = 1;
+  }
+  x[myIndex - 1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+var myIndex1 = 0;
+carousel1();
+
+function carousel1() {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex1++;
+  if (myIndex1 > x.length) {
+    myIndex1 = 1;
+  }
+  x[myIndex1 - 1].style.display = "block";
+  setTimeout(carousel1, 2000); // Change image every 2 seconds
 }

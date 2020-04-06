@@ -328,3 +328,9 @@ footer {
     font-size: 1.3em;
   }
 }
+.mySlides {
+  display: none;
+}
+.mySlides1 {
+  display: none;
+}
