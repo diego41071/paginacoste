@@ -340,3 +340,8 @@ footer {
   max-width: 80%;
   margin-top: 50px;
 }
+
+.flexslider {
+  display: flex;
+  justify-content: space-around;
+}
