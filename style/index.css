@@ -14,6 +14,8 @@ body {
   width: 100%;
   color: white;
   margin-top: -9%;
+  padding-top: 0px;
+  padding-bottom: 1px;
 }
 
 input[type="radio"]:after {
@@ -114,6 +116,7 @@ input[type="radio"]:checked:after {
   top: 165px;
   position: relative;
   left: -28%;
+  margin-top: -20px;
 }
 
 .h2 {
@@ -133,6 +136,13 @@ h3 {
 .footer {
   background-color: black;
   color: white;
+}
+
+footer section span h2,
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 ul {
   list-style: none;
