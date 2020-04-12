@@ -190,29 +190,23 @@ footer {
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  position: relative;
+  display: flex;
   margin-top: 5px;
+  font-size: 15px;
 }
-.footer-social-section::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 10px;
-  border-top: 1px solid black;
-  width: calc(100% - 20px);
-}
+
 .footer-social-overlap {
   position: relative;
-  z-index: 2;
   background: rgb(55, 55, 55);
   padding: 0 20px;
+  font-size: 25px;
 }
 .footer-social-connect {
   /* display: flex; */
   align-items: center;
   font: 1.5em "Oswald", sans-serif;
   color: #fff;
+  text-align: left;
 }
 .footer-social-small {
   font-size: 0.6em;
@@ -227,7 +221,6 @@ footer {
 .footer-bottom-section {
   width: 100%;
   padding: 10px;
-  border-top: 1px solid black;
   margin-top: 10px;
 }
 .footer-bottom-section > div:first-child {
@@ -323,7 +316,7 @@ footer {
     font-size: 2.4em;
   }
   .footer-social-overlap > a {
-    font-size: 2.24em;
+    font-size: 10px;
   }
   .footer-bottom-wrapper {
     font-size: 1.3em;
@@ -338,8 +331,7 @@ footer {
 
 .slidercontainer {
   margin: 0 auto;
-  max-width: 80%;
-  margin-top: 50px;
+  max-width: 100%;
 }
 
 .flexslider {
