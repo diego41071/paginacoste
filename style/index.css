@@ -113,11 +113,12 @@ input[type="radio"]:checked:after {
 }
 
 .leftimg {
-  width: 18%;
+  width: 36%;
   top: 165px;
   position: relative;
   left: -28%;
   margin-top: -20px;
+  margin-right: 102px;
 }
 
 .h2 {
