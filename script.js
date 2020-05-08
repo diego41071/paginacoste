@@ -54,5 +54,13 @@ function carousel1() {
 }
 
 function modal() {
-    $(".ui.modal").modal("show");
+    $(".ui.modal.modal1").modal("show");
+}
+
+function modal1() {
+    $(".ui.modal.modal2").modal("show");
+}
+
+function modal2() {
+    $(".ui.modal.modal3").modal("show");
 }
