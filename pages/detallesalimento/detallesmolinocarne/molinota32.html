@@ -1,90 +1,114 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../../../style/index.css" />
     <link rel="stylesheet" href="../../cards.css" />
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="header" data-aos="flip-left">
-        <img src="../../../images/logo.png" alt="" class="leftimg" />
-        <div class="titles">
-            <h1>IMEPesaje</h1>
-            <h2 class="h2">
-                Instalación y Mantenimiento, Equipos de Pesaje
-            </h2>
-            <h3>Soluciones Industriales &amp; Alimenticias</h3>
-        </div>
+      <img src="../../../images/logo.png" alt="" class="leftimg" />
+      <div class="titles">
+        <h1 class="h1">IMEPesaje</h1>
+        <h2 class="h2">
+          Instalación y Mantenimiento, Equipos de Pesaje
+        </h2>
+        <h3>Soluciones Industriales &amp; Alimenticias</h3>
+      </div>
     </div>
 
     <div id="navbar">
-        <a href="../../../index.html"> Inicio</a>
-        <a href="../../balanzacomercial.html">Línea de Balanza Comercial</a>
+      <a href="../../../index.html"> Inicio</a>
+      <a href="../../balanzacomercial.html">Línea de Balanza Comercial</a>
 
-        <a href="../../pesaje.html">Linea de Pesaje Industrial</a>
-        <a href="../../indicadorespeso.html">Línea de Indicadores de Peso</a>
+      <a href="../../pesaje.html">Linea de Pesaje Industrial</a>
+      <a href="../../indicadorespeso.html">Línea de Indicadores de Peso</a>
 
-        <a href="../../alimento.html" class="active">Línea de Alimentos</a>
-        <a href="../../empaque.html">Línea de Empaques</a>
-        <a href="../../frutasyverduras.html">Línea de Frutas y Verduras</a>
+      <a href="../../alimento.html" class="active">Línea de Alimentos</a>
+      <a href="../../empaque.html">Línea de Empaques</a>
+      <a href="../../frutasyverduras.html">Línea de Frutas y Verduras</a>
 
-        <a href="../../panaderia.html">Línea de Panadería</a>
-        <a href="../../accesorios.html"> Línea de Accesorios</a>
+      <a href="../../panaderia.html">Línea de Panadería</a>
+      <a href="../../accesorios.html"> Línea de Accesorios</a>
     </div>
     <div class="content">
-        <div class="picture left" style="width: 30%;">
-            <img src="../../../images/LINEA DE ALIMENTOS/detallesmolinocarne/molino omega ta-32.webp" alt="Planeta Marte" width="100%" height="100%" />
-            <br />MOLINO OMEGA TA-32
-        </div>
-        <h1>
-            MOLINO OMEGA TA-32
-        </h1>
-        <p>
-            - Diseñado para producción alta. - Motor 3HP a 220V - Transmisión con lubricación permanente - Inversor de giro (reversa) - Incluye pisador - Fabricado totalmente en acero inox AISI 304. - Producción nominal: 9Kg/ min. - Incluye disco y cuchilla marca
-            SALVADOR - Dimensiones: 51x61x39cm. Peso: 50Kg -Tolva extraíble de grandes dimensiones Opcional: banco para molino - Unidad de empaque: 1 - Tamaño y peso del equipo: 51x40x60cm / 50kg
-        </p>
-        <button onclick="modal()" class="ui primary button">
+      <div class="picture left" style="width: 30%;">
+        <img
+          src="../../../images/LINEA DE ALIMENTOS/detallesmolinocarne/molino omega ta-32.webp"
+          alt="Planeta Marte"
+          width="100%"
+          height="100%"
+        />
+        <br />MOLINO OMEGA TA-32
+      </div>
+      <h1>
+        MOLINO OMEGA TA-32
+      </h1>
+      <p>
+        - Diseñado para producción alta. - Motor 3HP a 220V - Transmisión con
+        lubricación permanente - Inversor de giro (reversa) - Incluye pisador -
+        Fabricado totalmente en acero inox AISI 304. - Producción nominal: 9Kg/
+        min. - Incluye disco y cuchilla marca SALVADOR - Dimensiones:
+        51x61x39cm. Peso: 50Kg -Tolva extraíble de grandes dimensiones Opcional:
+        banco para molino - Unidad de empaque: 1 - Tamaño y peso del equipo:
+        51x40x60cm / 50kg
+      </p>
+      <button onclick="modal()" class="ui primary button">
         FICHA TÉCNICA
       </button>
-        <button onclick="modal1()" class="ui primary button">
+      <button onclick="modal1()" class="ui primary button">
         MANUAL DE USUARIO
       </button>
 
-        <div class="ui modal modal1">
-            <i class="close icon"></i>
-            <div class="header">
-                Ficha técnica
-            </div>
-            <div class="content">
-                <embed src="../../../images/LINEA DE ALIMENTOS/detallesmolinocarne/pdf/Ficha Tecnica OMEGA-TA-32.pdf" type="application/pdf" width="100%" height="600px" />
-            </div>
-            <div class="actions">
-                <div class="ui black deny button">
-                    Cerrar
-                </div>
-            </div>
+      <div class="ui modal modal1">
+        <i class="close icon"></i>
+        <div class="header">
+          Ficha técnica
         </div>
-        <div class="ui modal modal2">
-            <i class="close icon"></i>
-            <div class="header">
-                Manual de usuario
-            </div>
-            <div class="content">
-                <embed src="../../../images/LINEA DE ALIMENTOS/detallesmolinocarne/pdf/Manual de usuario OMEGA-TA32X.pdf" type="application/pdf" width="100%" height="600px" />
-            </div>
-            <div class="actions">
-                <div class="ui black deny button">
-                    Cerrar
-                </div>
-            </div>
+        <div class="content">
+          <embed
+            src="../../../images/LINEA DE ALIMENTOS/detallesmolinocarne/pdf/Ficha Tecnica OMEGA-TA-32.pdf"
+            type="application/pdf"
+            width="100%"
+            height="600px"
+          />
         </div>
+        <div class="actions">
+          <div class="ui black deny button">
+            Cerrar
+          </div>
+        </div>
+      </div>
+      <div class="ui modal modal2">
+        <i class="close icon"></i>
+        <div class="header">
+          Manual de usuario
+        </div>
+        <div class="content">
+          <embed
+            src="../../../images/LINEA DE ALIMENTOS/detallesmolinocarne/pdf/Manual de usuario OMEGA-TA32X.pdf"
+            type="application/pdf"
+            width="100%"
+            height="600px"
+          />
+        </div>
+        <div class="actions">
+          <div class="ui black deny button">
+            Cerrar
+          </div>
+        </div>
+      </div>
     </div>
     <script src="../../../script.js"></script>
-</body>
-
+  </body>
 </html>

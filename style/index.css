@@ -128,7 +128,7 @@ h3 {
     font-size: 93% !important;
 }
 
-.p {
+p {
     text-align: left;
 }
 
@@ -264,7 +264,7 @@ footer {
     font-style: normal;
 }
 
-h1 {
+.h1 {
     font-size: 72px !important;
     font-weight: bold !important;
     margin-bottom: 40px !important;
