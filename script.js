@@ -15,8 +15,6 @@ myFunction = () => {
 
 document.getElementById("getfulldate").innerHTML = new Date().getFullYear();
 
-AOS.init();
-
 var myIndex = 0;
 carousel();
 
