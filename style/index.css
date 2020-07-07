@@ -379,3 +379,17 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+.widthtext {
+    width: 60%;
+    float: right;
+    display: flex;
+}
+
+.description {
+    padding: 2%;
+}
+
+.button {
+    height: 40px;
+}
