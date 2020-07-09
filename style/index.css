@@ -88,7 +88,8 @@ input[type="radio"]:checked:after {
 .content {
     width: 100%;
     z-index: -1;
-    margin-bottom: 4%;
+    margin-bottom: 11%;
+    padding: 5%;
 }
 
 .content>.contenttext {
@@ -381,13 +382,23 @@ footer {
 }
 
 .widthtext {
-    width: 60%;
+    width: 67%;
     float: right;
     display: flex;
+    text-align: left;
+    margin-top: 230px;
+    align-items: center;
+}
+
+.widthtext p {
+    font-size: 18px;
+    text-align: justify;
 }
 
 .description {
-    padding: 2%;
+    padding: 3%;
+    height: 700px;
+    margin-bottom: 1%;
 }
 
 .button {
