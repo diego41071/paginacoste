@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
     font-size: 28px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: Roboto, sans-serif !important;
     text-align: center;
     overflow-x: hidden;
 }
@@ -379,28 +380,4 @@ footer {
 .flexslider {
     display: flex;
     justify-content: space-around;
-}
-
-.widthtext {
-    width: 67%;
-    float: right;
-    display: flex;
-    text-align: left;
-    margin-top: 230px;
-    align-items: center;
-}
-
-.widthtext p {
-    font-size: 18px;
-    text-align: justify;
-}
-
-.description {
-    padding: 3%;
-    height: 700px;
-    margin-bottom: 1%;
-}
-
-.button {
-    height: 40px;
 }

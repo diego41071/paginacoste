@@ -40,12 +40,46 @@
     margin-bottom: 3px;
 }
 
-.right {
+
+/* .right {
     margin: 0.5em 0pt 0.5em 0.8em;
     float: right;
-}
+} */
 
 .left {
     margin: 0.5em 0.8em 0.5em 0;
     float: left;
+}
+
+.left p {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.widthtext {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    margin-top: 141px;
+    align-items: center;
+}
+
+.widthtext p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.description {
+    padding: 3%;
+    height: 700px;
+    margin-bottom: 1%;
+}
+
+.button {
+    height: 40px;
+    margin-left: 35px !important;
+}
+
+.marginthreeimages {
+    margin-top: 101px;
 }
