@@ -381,3 +381,8 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+.deny {
+    display: block !important;
+    width: 92px;
+}

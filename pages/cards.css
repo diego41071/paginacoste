@@ -75,9 +75,14 @@
     margin-bottom: 1%;
 }
 
+.containerbutton {
+    margin-left: 35px;
+}
+
 .button {
     height: 40px;
-    margin-left: 35px !important;
+    display: flex !important;
+    align-items: center !important;
 }
 
 .marginthreeimages {
