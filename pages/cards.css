@@ -83,8 +83,16 @@
     height: 40px;
     display: flex !important;
     align-items: center !important;
+    margin-bottom: 10px !important;
+    width: 130px;
+    justify-content: center;
 }
 
 .marginthreeimages {
     margin-top: 101px;
+}
+
+.deny {
+    display: block !important;
+    width: 92px;
 }
