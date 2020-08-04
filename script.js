@@ -62,3 +62,7 @@ function modal1() {
 function modal2() {
     $(".ui.modal.modal3").modal("show");
 }
+
+function modal3() {
+    $(".ui.modal.modal4").modal("show");
+}
