@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
 </head>
 
 <body>
@@ -22,8 +23,32 @@
             <h3>Soluciones Industriales &amp; Alimenticias</h3>
         </div>
     </div>
-    <div id="navbar">
-        <a class="active" href="./index.html">Inicio</a>
+    <header class="cabecera clearfix gridContainer">
+        <nav>
+            <ul>
+                <li><a class="a" href="./index.html"><span class=""></span>Inicio</a></li>
+                <li><a class="a" href="./pages/balanzacomercial.html">Línea de Balanza Comercial</a></li>
+                <li><a class="a" href="./pages/pesaje.html">Linea de Pesaje Industrial</a></li>
+                <li><a class="a" href="./pages/indicadorespeso.html">Línea de Indicadores de Peso</a></li>
+                <li><a class="a" href="./pages/alimento.html">Línea de Alimentos</a></li>
+                <li> <a class="a" href="./pages/empaque.html">Línea de Empaques</a></li>
+                <li> <a class="a" href="./pages/frutasyverduras.html">Línea de Frutas y Verduras</a></li>
+
+                <li> <a class="a" href="./pages/panaderia.html">Línea de Panadería</a></li>
+                <li> <a class="a" href="./pages/accesorios.html">Línea de Accesorios</a></li>
+                <li>
+                    <form name="form1" method="get" action="/buscar.php" class="cabecera-buscar">
+                        <input class="buscarText" name="buscar" type="search" id="buscar" placeholder="Buscar...">
+                        <input class="buscarI" name="buscarI" type="image" src="https://www.bci.co/imagenes/lupa1.png"
+                            alt="Buscar" align="bottom">
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <div id="navbar"> -->
+    <!-- <a class="active" href="./index.html">Inicio</a>
         <a href="./pages/balanzacomercial.html">Línea de Balanza Comercial</a>
 
         <a href="./pages/pesaje.html">Linea de Pesaje Industrial</a>
@@ -34,8 +59,8 @@
         <a href="./pages/frutasyverduras.html">Línea de Frutas y Verduras</a>
 
         <a href="./pages/panaderia.html">Línea de Panadería</a>
-        <a href="./pages/accesorios.html">Línea de Accesorios</a>
-    </div>
+        <a href="./pages/accesorios.html">Línea de Accesorios</a> -->
+    <!-- </div> -->
     <div class="slidercontainer">
         <img class="mySlides" src="./images/SLIDER PARA EL INICIO/BALANZA COMERCIAL.png" style="width: 100%;" />
         <img class="mySlides" src="./images/SLIDER PARA EL INICIO/BALANZA DE ALTA PRESICIÒN.png" style="width: 100%;" />
@@ -49,11 +74,14 @@
             <h2>Misión</h2>
 
             <p class="p">
-                IMEPesaje presta sus servicios de tecnología de pesaje y alimentación a la comunidad colombiana, con responsabilidad social y calidad a través del desarrollo humano.
+                IMEPesaje presta sus servicios de tecnología de pesaje y alimentación a la comunidad colombiana, con
+                responsabilidad social y calidad a través del desarrollo humano.
             </p>
             <h2>Visión</h2>
             <p class="p">
-                IME pesaje estácomprometida con la comunidad colombiana para facilitar el acceso a las tecnologías de pesajes y alimenticias con un eficiente desarrollo del talento humano, técnico y comercial teniendo como razón de ser la satisfacción de sus clientes.
+                IME pesaje estácomprometida con la comunidad colombiana para facilitar el acceso a las tecnologías de
+                pesajes y alimenticias con un eficiente desarrollo del talento humano, técnico y comercial teniendo como
+                razón de ser la satisfacción de sus clientes.
             </p>
             <h2>Valores</h2>
             <div class="items">
@@ -123,65 +151,50 @@
     <footer class="flex-rw">
         <section class="footer-social-section flex-rw">
             <span class="footer-social-overlap footer-social-connect">
-          <h2>CONTÁCTANOS</h2>
-          <div>
-            <h2>IMEPesaje</h2>
-          </div>
-          <div>
-            <h4>Distribuidor – Régimen Simplificado</h4>
-            <h4>Cel: 3041301189</h4>
-            <h4>IMEPesaje@gmail.com</h4>
-          </div>
-        </span>
+                <h2>CONTÁCTANOS</h2>
+                <div>
+                    <h2>IMEPesaje</h2>
+                </div>
+                <div>
+                    <h4>Distribuidor – Régimen Simplificado</h4>
+                    <h4>Cel: 3041301189</h4>
+                    <h4>IMEPesaje@gmail.com</h4>
+                </div>
+            </span>
             <span class="footer-social-overlap footer-social-icons-wrapper">
-          <a
-            href="https://www.facebook.com/Imepesaje-110894343974026/?modal=admin_todo_tour"
-            class="generic-anchor"
-            target="_blank"
-            title="Facebook"
-            itemprop="significantLink"
-          >
-            <i class="fa fa-facebook"></i>
-          </a>
+                <a href="https://www.facebook.com/Imepesaje-110894343974026/?modal=admin_todo_tour"
+                    class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink">
+                    <i class="fa fa-facebook"></i>
+                </a>
 
-          <a
-            href="https://www.instagram.com/imepesaje/"
-            class="generic-anchor"
-            target="_blank"
-            title="Instagram"
-            itemprop="significantLink"
-          >
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a
-            href="https://www.youtube.com/channel/UCu0OGO-WEaE6hOnwsK2L4xg"
-            class="generic-anchor"
-            target="_blank"
-            title="Youtube"
-            itemprop="significantLink"
-          >
-            <i class="fa fa-youtube"></i>
-          </a>
-        </span>
+                <a href="https://www.instagram.com/imepesaje/" class="generic-anchor" target="_blank" title="Instagram"
+                    itemprop="significantLink">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCu0OGO-WEaE6hOnwsK2L4xg" class="generic-anchor"
+                    target="_blank" title="Youtube" itemprop="significantLink">
+                    <i class="fa fa-youtube"></i>
+                </a>
+            </span>
         </section>
         <section class="footer-bottom-section flex-rw">
             <div class="footer-bottom-wrapper">
                 <i class="fa fa-copyright" role="copyright"></i>
                 <span id="getfulldate"></span> Medellín, Antioquia
                 <address class="footer-address" role="company address">
-            - Colombia
-          </address>
+                    - Colombia
+                </address>
                 <span class="footer-bottom-rights">
-            | Todos los derechos reservados
-          </span>
+                    | Todos los derechos reservados
+                </span>
             </div>
             <div class="footer-bottom-wrapper">
                 <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">
-            Terms
-          </a> |
+                    Terms
+                </a> |
                 <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">
-            Privacy
-          </a>
+                    Privacy
+                </a>
             </div>
         </section>
     </footer>

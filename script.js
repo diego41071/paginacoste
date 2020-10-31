@@ -1,19 +1,3 @@
-window.onscroll = () => {
-    myFunction();
-};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-myFunction = () => {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-    } else {
-        navbar.classList.remove("sticky");
-    }
-};
-
-document.getElementById("getfulldate").innerHTML = new Date().getFullYear();
 
 var myIndex = 0;
 carousel();
@@ -50,6 +34,25 @@ function carousel1() {
     x[myIndex1 - 1].style.display = "block";
     setTimeout(carousel1, 8000); // Change image every 2 seconds
 }
+
+window.onscroll = () => {
+    myFunction();
+};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+myFunction = () => {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+    } else {
+        navbar.classList.remove("sticky");
+    }
+};
+
+document.getElementById("getfulldate").innerHTML = new Date().getFullYear();
+
+
 
 function modal() {
     $(".ui.modal.modal1").modal("show");
