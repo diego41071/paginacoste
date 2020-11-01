@@ -90,7 +90,7 @@ input[type="radio"]:checked:after {
 .content {
     width: 100%;
     z-index: -1;
-    margin-bottom: 11%;
+    /* margin-bottom: 11%; */
     padding: 5%;
 }
 
@@ -142,7 +142,7 @@ p {
 
 footer section span h2,
 h4 {
-    margin-top: 0 !important;
+    margin-top: 5px !important;
     margin-bottom: 0 !important;
     font-size: 20px;
 }
@@ -168,9 +168,8 @@ ul {
 }
 
 .flex-rw {
-    /* display: flex; */
     flex-flow: row wrap;
-    margin-top: 100px;
+    margin-top: 45px;
 }
 
 main {
@@ -258,8 +257,9 @@ footer {
 }
 
 .footer-bottom-wrapper {
-    font-size: 1.2em;
+    font-size: 20px;
     color: #fff;
+    margin-top: 15px;
 }
 
 .footer-address {
@@ -382,7 +382,10 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-
+.index{    
+    margin-top: 10px !important;
+    text-align: center;
+}
 /* Inicio de cambios del menu */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section{display:block;}

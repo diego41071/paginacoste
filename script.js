@@ -1,3 +1,4 @@
+document.getElementById("getfulldate").innerHTML = new Date().getFullYear();
 
 var myIndex = 0;
 carousel();
@@ -49,10 +50,6 @@ myFunction = () => {
         navbar.classList.remove("sticky");
     }
 };
-
-document.getElementById("getfulldate").innerHTML = new Date().getFullYear();
-
-
 
 function modal() {
     $(".ui.modal.modal1").modal("show");
