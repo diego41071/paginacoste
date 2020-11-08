@@ -6,6 +6,8 @@
     cursor: pointer;
 }
 
+.title{text-align: left;}
+
 .card p {
     position: absolute;
     bottom: 20px;
