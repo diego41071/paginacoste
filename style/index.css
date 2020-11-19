@@ -623,20 +623,29 @@ header nav ul li .children li {
     font-size:30px;
     z-index:100;
     margin-top: 48px;
+    text-decoration: none;
   }
   .whatsapp:hover{    
       color:#FFF;
   }
+  .whatsapp:visited {
+    color: white;
+}
+.whatsapp:focus {
+      outline: 0px;
+}
   .whatsapp-icon {
     margin-top:13px;
   }
   .fa-facebook-messenger{
     font-size: 42px;
     color: #448aff;
+    cursor: pointer;
   }
   .arrow{    
     font-size: 42px !important;
     color: black;
+    cursor: pointer;
   }
   .backgroundarrow{
     background-color: white; 
