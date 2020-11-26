@@ -637,7 +637,7 @@ header nav ul li .children li {
   .whatsapp:visited {
     color: white;
 }
-.whatsapp:focus {
+a:focus {
       outline: 0px;
 }
   .whatsapp-icon {
@@ -663,6 +663,16 @@ header nav ul li .children li {
     width: 25px;
     right: 15px;
 }
+
+.imgyoutube{width: 50px; 
+ }
+
+.imgfacebook{width: 60px; height: 60px;}
+
+.imginstagram{height: 47px;}
+
+
+
 @media screen and (max-width: 800px) {
 body {
 		padding-top:100px;
