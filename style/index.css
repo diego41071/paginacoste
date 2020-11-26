@@ -135,10 +135,6 @@ p {
     text-align: left;
 }
 
-.footer {
-    background-color: black;
-    color: white;
-}
 
 footer section span h2,
 h4 {
@@ -183,12 +179,22 @@ main {
 }
 
 footer {
-    background: rgb(55, 55, 55);
+    /* background: rgb(55, 55, 55); */
+     
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 2.5)
+      ),
+    url(https://www.mt.com/dam/ind/Mood_Images/P5/Portable_BenchScale/ICS429ICS439_Basic_Weighing_Scales_1010x260.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg);
+    background-repeat: no-repeat;
     margin-top: auto;
     width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
+    background-size: cover;
 }
+ 
 
 .footer-list-top {
     width: 30%;
@@ -220,7 +226,7 @@ footer {
 
 .footer-social-overlap {
     position: relative;
-    background: rgb(55, 55, 55);
+    /* background: rgb(55, 55, 55); */
     padding: 0 20px;
     font-size: 25px;
 }
