@@ -277,6 +277,22 @@ footer {
     font-size: 72px !important;
     font-weight: bold !important;
     margin-bottom: 40px !important;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    line-height: 1.28571429em;
+    margin: calc(2rem - .14285714em) 0 1rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+.textslider{font-size: 20px;}
+
+.carousel{
+    background-color: #06e; 
+    padding: 10%;  
+    padding-top: 5%;
+    height: 390px;  
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 768px) {
