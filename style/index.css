@@ -8,7 +8,8 @@ body {
 }
 
 .header {
-    background-image: url(../images/e2909aab62a0d9f7a4dcd095d2bdf069.gif);
+    /* background-image: url(../images/e2909aab62a0d9f7a4dcd095d2bdf069.gif); */
+    background-image: url(https://giffiles.alphacoders.com/360/36033.gif);
     padding: 30px;
     background-size: cover;
     text-align: center;
@@ -284,17 +285,30 @@ footer {
     padding: 0;
 }
 
-.textslider{font-size: 20px;}
-
-.carousel1{
-    background-color: #06e; 
-    padding: 10%;  
-    padding-top: 5%;
-    height: 390px;  
-    margin-top: 40px;
-    margin-bottom: 30px;
+.textslider{font-size: 20px;     margin-bottom: 0px;
 }
 
+.carousel1{
+    /* background-color: #06e;  */
+    padding: 10%;  
+    padding-top: 5%;
+    height: 293px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #0000001a;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #B6C4D8;
+
+}
+.prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+   .contentdata{width: 94%; margin: 0 auto;}
 @media only screen and (max-width: 768px) {
     .footer-list-header {
         font-size: 2em;
