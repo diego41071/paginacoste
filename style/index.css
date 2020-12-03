@@ -9,15 +9,17 @@ body {
 
 .header {
     /* background-image: url(../images/e2909aab62a0d9f7a4dcd095d2bdf069.gif); */
-    background-image: url(https://giffiles.alphacoders.com/360/36033.gif);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 2.5)    ,    rgba(0, 0, 0, 0.5)
+
+        ),url(https://www.poseid2n.com/balanzasypesajes.jpg);
     padding: 30px;
     background-size: cover;
     text-align: center;
     width: 100%;
     color: white;
     margin-top: -11%;
-    padding-top: 10px;
-    padding-bottom: 16px;
+    padding-top: 10px; 
 }
 
 .header .titles {
