@@ -837,7 +837,7 @@ body {
   } */
   
 
-  @media screen and (max-width: 400px)  {
+  @media screen and (max-width: 600px)  {
     .header .titles {
         margin-top: -61px;
         margin-left: 0;
