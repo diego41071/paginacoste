@@ -826,3 +826,20 @@ body {
 		float: right;
 	}
 }
+
+/* @media screen and (max-width: 900px) and (min-width: 600px) {
+    div.example {
+      font-size: 50px;
+      padding: 50px;
+      border: 8px solid black;
+      background: yellow;
+    }
+  } */
+  
+
+  @media screen and (max-width: 400px)  {
+    .header .titles {
+        margin-top: -61px;
+        margin-left: 0;
+    }
+  }
