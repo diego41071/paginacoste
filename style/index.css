@@ -353,7 +353,7 @@ footer {
         padding: 0 10px;
     }
     .footer-social-overlap {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
     }
     .footer-social-icons-wrapper {
