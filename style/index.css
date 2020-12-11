@@ -1159,4 +1159,7 @@ a:focus {
   .h1 {
     font-size: 60px !important;
   }
+  header nav ul li a {
+    background-color: transparent;
+  }
 }
