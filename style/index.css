@@ -366,6 +366,11 @@ footer {
     text-align: center;
     width: 100%;
     margin-top: 10px;
+    font-size: 26px;
+  }
+  .span{display: none;}
+  .backgroundarrow {
+  top: -1px !important;
   }
 }
 
@@ -977,7 +982,6 @@ a:focus {
   color: transparent;
   position: absolute;
   top: 1px;
-  width: 50px;
   z-index: -1;
   width: 25px;
   right: 15px;
@@ -1162,4 +1166,6 @@ a:focus {
   header nav ul li a {
     background-color: transparent;
   }
+  .footer-bottom-section > div:first-child {
+    font-size: 19px;
 }
