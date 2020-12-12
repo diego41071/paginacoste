@@ -368,9 +368,11 @@ footer {
     margin-top: 10px;
     font-size: 26px;
   }
-  .span{display: none;}
+  .span {
+    display: none;
+  }
   .backgroundarrow {
-  top: -1px !important;
+    top: -1px !important;
   }
 }
 
@@ -1161,11 +1163,15 @@ a:focus {
     margin-top: 92px;
   }
   .h1 {
-    font-size: 60px !important;
+    font-size: 40px !important;
+  }
+  .h2 {
+    font-size: 28px;
   }
   header nav ul li a {
     background-color: transparent;
   }
   .footer-bottom-section > div:first-child {
     font-size: 19px;
+  }
 }
