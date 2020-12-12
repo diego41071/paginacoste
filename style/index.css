@@ -428,6 +428,7 @@ footer {
   position: fixed;
   bottom: 107px;
   right: 36px;
+  z-index: 100;
 }
 
 /* Inicio de cambios del menu */
