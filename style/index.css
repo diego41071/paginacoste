@@ -406,6 +406,11 @@ footer {
   }
 }
 
+.imageslider {
+  width: 312px;
+  height: 240px;
+}
+
 .mySlides {
   display: none;
 }
