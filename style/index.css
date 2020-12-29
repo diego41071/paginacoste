@@ -406,6 +406,10 @@ footer {
   }
 }
 
+.carousel-item {
+  cursor: pointer;
+}
+
 .imageslider {
   width: 312px;
   height: 240px;
