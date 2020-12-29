@@ -1,47 +1,48 @@
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 100%;
-    height: 350px;
-    cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 350px;
+  cursor: pointer;
 }
 
-.title{text-align: left;}
+.title {
+  text-align: left;
+}
 
 .card p {
-    position: absolute;
-    bottom: 20px;
-    margin-right: 45px;
-    width: 77%;
+  position: absolute;
+  bottom: 20px;
+  margin-right: 45px;
+  width: 77%;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
-    padding: 2px 16px;
+  padding: 2px 16px;
 }
 
 .container p {
-    font-size: 21px;
-    font-weight: bold;
-    text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .picture {
-    background-color: #f9f9f9;
-    border: 1px solid #cccccc;
-    padding: 3px;
-    font: 11px/1.4em Arial, sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  padding: 3px;
+  font: 11px/1.4em Arial, sans-serif;
 }
 
 .picture img {
-    border: 1px solid #cccccc;
-    vertical-align: middle;
-    margin-bottom: 3px;
+  border: 1px solid #cccccc;
+  vertical-align: middle;
+  margin-bottom: 3px;
 }
-
 
 /* .right {
     margin: 0.5em 0pt 0.5em 0.8em;
@@ -49,52 +50,52 @@
 } */
 
 .left {
-    margin: 0.5em 0.8em 0.5em 0;
-    float: left;
+  margin: 0.5em 0.8em 0.5em 0;
+  float: left;
 }
 
 .left p {
-    margin-bottom: 0;
-    font-size: 22px;
+  margin-bottom: 0;
+  font-size: 22px;
 }
 
 .widthtext {
-    width: 100%;
-    display: flex;
-    text-align: left;
-    margin-top: 141px;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  text-align: left;
+  margin-top: 141px;
+  align-items: center;
 }
 
 .widthtext p {
-    font-size: 18px;
-    text-align: justify;
+  font-size: 15px;
+  text-align: justify;
 }
 
 .description {
-    padding: 3%;
-    height: 700px;
-    margin-bottom: 1%;
+  padding: 0% 3%;
+  height: 700px;
+  margin-bottom: 1%;
 }
 
 .containerbutton {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 .button {
-    height: 40px;
-    display: flex !important;
-    align-items: center !important;
-    margin-bottom: 10px !important;
-    width: 130px;
-    justify-content: center;
+  height: 40px;
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 10px !important;
+  width: 130px;
+  justify-content: center;
 }
 
 .marginthreeimages {
-    margin-top: 101px;
+  margin-top: 101px;
 }
 
 .deny {
-    display: block !important;
-    width: 92px;
+  display: block !important;
+  width: 92px;
 }
