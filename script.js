@@ -25,12 +25,12 @@ function main() {
 
 document.getElementById("getfulldate").innerHTML = new Date().getFullYear();
 
-window.onscroll = () => {
-  myFunction();
-};
+// window.onscroll = () => {
+//   myFunction();
+// };
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
 
 function modal() {
   $(".ui.modal.modal1").modal("show");
