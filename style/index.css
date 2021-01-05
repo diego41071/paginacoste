@@ -94,7 +94,9 @@ input[type="radio"]:checked:after {
   /* margin-bottom: 11%; */
   padding: 1% 5%;
 }
-
+.sliderindex {
+  width: 100%;
+}
 .content > .contenttext {
   color: black;
   padding: 10%;
