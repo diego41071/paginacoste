@@ -100,6 +100,12 @@ input[type="radio"]:checked:after {
 .widthmarketscontainer {
   width: 25%;
 }
+.widthmarkets {
+  width: 40%;
+}
+.widthtrheemarkets {
+  width: 33%;
+}
 .content > .contenttext {
   color: black;
   padding: 10%;
