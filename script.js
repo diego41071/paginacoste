@@ -2,6 +2,10 @@ var link = "/";
 link.split(".html")[0];
 window.history.replaceState(null, null, link);
 
+var link2 = "/page/";
+link2.split(".html")[0];
+window.history.replaceState(null, null, link2);
+
 $(document).ready(main);
 
 var contador = 1;
