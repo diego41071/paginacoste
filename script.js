@@ -1,3 +1,7 @@
+var link = "www.imepesaje.com/product.html";
+link.split(".html")[0];
+window.history.replaceState(null, null, link);
+
 $(document).ready(main);
 
 var contador = 1;
