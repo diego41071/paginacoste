@@ -2,7 +2,7 @@ var link = "/";
 link.split(".html")[0];
 window.history.replaceState(null, null, link);
 
-var link2 = "/page/";
+var link2 = "/pages/";
 link2.split(".html")[0];
 window.history.replaceState(null, null, link2);
 
