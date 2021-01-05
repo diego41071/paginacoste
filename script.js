@@ -1,4 +1,4 @@
-var link = "www.imepesaje.com/index.html";
+var link = "/index.html";
 link.split(".html")[0];
 window.history.replaceState(null, null, link);
 
